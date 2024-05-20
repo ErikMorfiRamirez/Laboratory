@@ -35,6 +35,9 @@ Route::group(['middleware' => 'auth'], function () {
 	Route::put('profile/password', ['as' => 'profile.password', 'uses' => 'App\Http\Controllers\ProfileController@password']);
 	Route::get('pacientes', function () {return view('pages.pacientes');})->name('pacientes');
 	Route::get('pacientes_detalle', function () {return view('pages.pacientes_detalle');})->name('pacientes_detalle');
+	Route::get('nuevo_paciente', function () {return view('pages.nuevo_paciente');})->name('nuevo_paciente');
+	Route::get('ordenes_servicio', function () {return view('pages.ordenes_servicio');})->name('ordenes_servicio');
+	Route::get('crear_orden_servicio', function () {return view('pages.crear_orden_servicio');})->name('crear_orden_servicio');
 
 });
 

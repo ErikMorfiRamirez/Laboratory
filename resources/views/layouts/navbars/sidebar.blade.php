@@ -110,7 +110,7 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ route('icons') }}">
+                    <a class="nav-link" href="{{ route('ordenes_servicio') }}">
                         <i class="ni ni-briefcase-24 text-blue"></i> Ordenes de servicio
                     </a>
                 </li>

@@ -67,11 +67,15 @@
                                 <input type="text" id="nombre_paciente" name="nombre_paciente" class="form-control form-control-sm form-control-alternative">
                             </div>
                             <div class="col-lg-12 mt-4">
-                                <button class="btn btn-icon btn-success" type="button">
+                                <button class="btn btn-icon btn-success btn-sm" type="button">
                                     <span class="btn-inner--icon"><i class="fas fa-search"></i></span>
                                     <span class="btn-inner--text">Buscar</span>
-                                </button>      
-                                <button class="btn btn-icon btn-secondary" type="button">
+                                </button>  
+                                <a class="btn btn-icon btn-info btn-sm" type="button" href="{{ route('nuevo_paciente') }}">
+                                    <span class="btn-inner--icon"><i class="fas fa-plus"></i></span>
+                                    <span class="btn-inner--text">Nuevo paciente</span>
+                                </a>   
+                                <button class="btn btn-icon btn-secondary btn-sm" type="button">
                                     <span class="btn-inner--icon"><i class="fas fa-edit"></i></span>
                                     <span class="btn-inner--text">Limpiar formulario</span>
                                 </button>                               

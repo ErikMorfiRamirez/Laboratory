@@ -64,10 +64,14 @@
                                                 <strong>TELÉFONO: </strong>
                                                 5526263535
                                             </div>
+                                            <div class="col-lg-12">
+                                                <strong>EXPEDIENTE: </strong>
+                                                <a href="#"> A585896</a>
+                                            </div>
                                         </div>
                                     </div>
                                     <div class="card-footer">
-                                        <button class="btn btn-icon btn-primary col" type="button">
+                                        <button class="btn btn-icon btn-secondary col" type="button">
                                             <span class="btn-inner--icon"><i class="fas fa-edit"></i></span>
                                             <span class="btn-inner--text">Editar</span>
                                         </button>
@@ -81,8 +85,8 @@
                                     </div>    
                                     <div class="card-body">
                                         <div class="row">
-                                            <div class="col-lg-12">
-                                                <table class="table table-striped table-hover table-bordered table-flush table-ligth" id="tabla_ordenes_asociadas">
+                                            <div class="col-lg-12 table-responsive">
+                                                <table class="table table-striped table-hover table-bordered table-flush table-ligth mt-2" id="tabla_ordenes_asociadas">
                                                     <thead>
                                                         <tr>
                                                             <th>#</th>
@@ -121,6 +125,16 @@
                             </div>
                         </div>
                     </div>
+                    <div class="card-footer">
+                        <button class="btn btn-icon btn-primary" type="button">
+                            <span class="btn-inner--icon"><i class="fas fa-notes-medical"></i></span>
+                            <span class="btn-inner--text">Crear orden de servicio</span>
+                        </button>
+                        <button class="btn btn-icon btn-success" type="button">
+                            <span class="btn-inner--icon"><i class="fas fa-file-invoice-dollar"></i></span>
+                            <span class="btn-inner--text">Crear presupuesto</span>
+                        </button>
+                    </div>
                 </div>
             </div>
             <div class="col-lg-12 mt-2">
@@ -130,7 +144,7 @@
                     </div>
                     <div class="card-body">
                         <div class="row">
-                            <div class="col-lg-4">
+                            <div class="col-lg-4 col-sm-6 col-xl-4">
                                 <div class="card shadow-sm">
                                     <div class="card-header">
                                         <h3>Identificación</h3>
