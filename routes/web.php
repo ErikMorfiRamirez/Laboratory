@@ -38,6 +38,12 @@ Route::group(['middleware' => 'auth'], function () {
 	Route::get('nuevo_paciente', function () {return view('pages.nuevo_paciente');})->name('nuevo_paciente');
 	Route::get('ordenes_servicio', function () {return view('pages.ordenes_servicio');})->name('ordenes_servicio');
 	Route::get('crear_orden_servicio', function () {return view('pages.crear_orden_servicio');})->name('crear_orden_servicio');
+	Route::get('medicos', function () {return view('pages.medicos');})->name('medicos');
+	Route::get('areas', function () {return view('pages.areas');})->name('areas');
+	Route::get('detalle_area', function () {return view('pages.areas_detalle');})->name('detalle_area');
+	Route::get('finanzas', function () {return view('pages.finanzas');})->name('finanzas');
+	Route::get('usuarios', function () {return view('pages.usuarios');})->name('usuarios');
+
 
 });
 

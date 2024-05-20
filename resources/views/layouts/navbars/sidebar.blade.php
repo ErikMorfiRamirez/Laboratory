@@ -109,28 +109,29 @@
                         <i class="ni ni-favourite-28 text-red"></i> Pacientes
                     </a>
                 </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ route('medicos') }}">
+                        <i class="ni ni-badge text-green"></i> Medicos
+                    </a>
+                </li>
                 <li class="nav-item">
                     <a class="nav-link" href="{{ route('ordenes_servicio') }}">
                         <i class="ni ni-briefcase-24 text-blue"></i> Ordenes de servicio
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ route('icons') }}">
-                        <i class="ni ni-badge text-green"></i> Medicos
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="{{ route('icons') }}">
+                    <a class="nav-link" href="{{ route('areas') }}">
                         <i class="ni ni-sound-wave text-black"></i> Áreas
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ route('icons') }}">
+                    <a class="nav-link" href="{{ route('finanzas') }}">
                         <i class="ni ni-chart-bar-32 text-warning"></i>Finanzas
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ route('icons') }}">
+                    <a class="nav-link" href="{{ route('usuarios') }}">
                         <i class="ni ni-circle-08 text-info"></i>Usuarios
                     </a>
                 </li>
@@ -151,25 +152,6 @@
             <!-- Divider -->
             <hr class="my-3">
             <!-- Heading -->
-            <h6 class="navbar-heading text-muted">Documentation</h6>
-            <!-- Navigation -->
-            <ul class="navbar-nav mb-md-3">
-                <li class="nav-item">
-                    <a class="nav-link" href="https://argon-dashboard-laravel.creative-tim.com/docs/getting-started/overview.html">
-                        <i class="ni ni-spaceship"></i> Getting started
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="https://argon-dashboard-laravel.creative-tim.com/docs/foundation/colors.html">
-                        <i class="ni ni-palette"></i> Foundation
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="https://argon-dashboard-laravel.creative-tim.com/docs/components/alerts.html">
-                        <i class="ni ni-ui-04"></i> Components
-                    </a>
-                </li>
-            </ul>
         </div>
     </div>
 </nav>
