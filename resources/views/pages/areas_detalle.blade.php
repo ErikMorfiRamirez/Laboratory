@@ -52,7 +52,8 @@
                                         </div>
                                     </div>
                                     <div class="card-footer">
-                                        <button class="btn btn-secondary btn-sm col"><i class="fas fa-edit"></i> Editar información</button>
+                                        <button class="btn btn-secondary btn-sm col"><i class="fas fa-edit"></i> Editar
+                                            información</button>
                                     </div>
                                 </div>
                             </div>
@@ -64,7 +65,8 @@
                                     <div class="card-body">
                                         <div class="row">
                                             <div class="col-lg-12 table-responsive">
-                                                <table class="table table-hover table-striped table-flush mt-2" id="tabla_servicios">
+                                                <table class="table table-hover table-striped table-flush mt-2"
+                                                    id="tabla_servicios">
                                                     <thead>
                                                         <tr>
                                                             <th>#</th>
@@ -121,8 +123,52 @@
                                     </div>
                                     <div class="card-body">
                                         <div class="row">
+                                            <div class="col-lg-12 mt--3">
+                                                <small>Filtros de busqueda</small>
+                                            </div>
+                                            <div class="col-lg-12">
+                                                <div class="row">
+                                                    <div class="col-lg-3">
+                                                        <label>Servicios:</label>
+                                                        <select
+                                                            class="form-control form-control-alternative form-control-sm">
+                                                            <option value="">Selecciona</option>
+                                                            <option value="">RAYOS X</option>
+                                                            <option value="">TOMOGRAFIAS</option>
+                                                            <option value="">MASTOGRAFIAS</option>
+                                                        </select>
+                                                    </div>
+                                                    <div class="col-lg-3">
+                                                        <label>Código:</label>
+                                                        <input class="form-control form-control-sm form-control-alternative"
+                                                            type="text">
+                                                    </div>
+                                                    <div class="col-lg-3">
+                                                        <label>Prueba / Estudio:</label>
+                                                        <input class="form-control form-control-sm form-control-alternative"
+                                                            type="text">
+                                                    </div>
+                                                    <div class="col-lg-3">
+                                                        <label>Estatus:</label>
+                                                        <select
+                                                            class="form-control form-control-alternative form-control-sm">
+                                                            <option value="">Selecciona</option>
+                                                            <option value="">ACTIVO</option>
+                                                            <option value="">INACTIVO</option>
+                                                        </select>
+                                                    </div>
+                                                    <div class="col-lg-12 mt-3 text-right">
+                                                        <button class="btn btn-success btn-sm"><i class="fas fa-search"></i>
+                                                            Buscar</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-12">
+                                                <hr>
+                                            </div>
                                             <div class="col-lg-12 table-responsive">
-                                                <table class="table table-striped table-hover table-bordered mt-2" id="tabla_pruebas">
+                                                <table class="table table-striped table-hover table-bordered mt-2"
+                                                    id="tabla_pruebas">
                                                     <thead>
                                                         <tr>
                                                             <th>#</th>
@@ -135,7 +181,7 @@
                                                         </tr>
                                                     </thead>
                                                     <tbody>
-                                                        
+
                                                         <tr>
                                                             <td>1</td>
                                                             <td>IMAGENOLOGÍA</td>
@@ -164,7 +210,8 @@
                                     </div>
                                     <div class="card-body">
                                         <div class="col-lg-12 table-responsive">
-                                            <table class="table table-hover table-striped table-bordered mt-2" id="tabla_medicos">
+                                            <table class="table table-hover table-striped table-bordered mt-2"
+                                                id="tabla_medicos">
                                                 <thead class="text-center">
                                                     <tr>
                                                         <th>#</th>
