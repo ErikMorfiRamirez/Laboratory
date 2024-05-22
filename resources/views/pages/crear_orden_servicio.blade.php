@@ -128,10 +128,10 @@
                                             </div>
                                         </div>
                                         <div class="col-lg-4 mt-2">
-                                            <div class="card">
+                                            <div class="card shadow-sm">
                                                 <img class="card-img-top" src="holder.js/100x180/" alt="">
                                                 <div class="card-body">
-                                                    <h4 class="card-title">Pago</h4>
+                                                    <h4 class="card-title"><i class="fas fa-money-check-alt"></i> Pago</h4>
                                                     <div class="row">
                                                         <div class="col-lg-8">
                                                             <label>Importe:</label>
@@ -164,6 +164,90 @@
                                                             <strong>$2,450</strong>
                                                         </div>
                                                         
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-8 mt-2">
+                                            <div class="card shadow-sm">
+                                                <div class="card-body">
+                                                    <h4 class="card-title"><i class="fas fa-file-invoice-dollar"></i> Ingresar pago</h4>
+                                                    <div class="row">
+                                                        <div class="col-lg-12">
+                                                            <small>Datos para facturación</small>
+                                                        </div>
+                                                        <div class="col-lg-4">
+                                                            <label>RFC</label>
+                                                            <input type="text" class="form-control form-control-alternative form-control-sm" placeholder="XAXX010101A"></input>
+                                                        </div>
+                                                        <div class="col-lg-4">
+                                                            <label>Forma de pago</label>
+                                                            <select class="form-control form-control-alternative form-control-sm">
+                                                                <option value="">Selecciona</option>
+                                                                <option value="">Efectivo</option>
+                                                                <option value="">Tarjeta de credito</option>
+                                                                <option value="">Tarjeta de debito</option>
+                                                                <option value="">Transferencia electrónica</option>
+                                                            </select>
+                                                        </div>
+                                                        <div class="col-lg-4">
+                                                            <label>Uso de CFDI</label>
+                                                            <select class="form-control form-control-alternative form-control-sm">
+                                                                <option value="">Selecciona</option>
+                                                                <option value="">Efectivo</option>
+                                                                <option value="">Tarjeta de credito</option>
+                                                                <option value="">Tarjeta de debito</option>
+                                                                <option value="">Transferencia electrónica</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-lg-12">
+                                                            <hr>
+                                                        </div>
+                                                        <div class="col-lg-12 mt--4">
+                                                            <small>Datos del pago</small>
+                                                        </div>
+                                                        <div class="col-lg-12">
+                                                            <table class="table table-striped table-bordered table-hover text-center">
+                                                                <thead>
+                                                                    <tr>
+                                                                        <th>#</th>
+                                                                        <th>Forma de pago</th>
+                                                                        <th>Cantidad</th>
+                                                                        <th>Opciones</th>
+                                                                    </tr>
+                                                                </thead>
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td>1</td>
+                                                                        <td>Efectivo</td>
+                                                                        <td>$1300</td>
+                                                                        <td>
+                                                                            <button class="btn btn-danger btn-sm"><i class="fas fa-trash"> </i> </button>
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                        <div class="col-lg-12 mt-2 text-right">
+                                                            <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#modal_pago"><i class="fas fa-plus"></i> Agregar pago</button>
+                                                        </div>
+                                                        <div class="col-lg-12 mt--3">
+                                                            <hr>
+                                                        </div>
+                                                        <div class="col-lg-4 mt--3">
+                                                            <label>Pago: </label>
+                                                            <input type="number" placeholder="$0.00" value="1500" readonly class="form-contro form-control-alternative form-control-sm">
+                                                        </div>
+                                                        <div class="col-lg-4 mt--3 ">
+                                                            <label>Saldo: </label>
+                                                            <input type="number" placeholder="$0.00" readonly class="form-contro form-control-alternative form-control-sm">
+                                                        </div>
+                                                        <div class="col-lg-4 mt--3">
+                                                            <label>Cambio: </label>
+                                                            <input type="text" placeholder="$0.00" value="200" readonly class="form-contro form-control-alternative form-control-sm">
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -350,6 +434,53 @@
                                         </tr>
                                     </tbody>
                                 </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <!-- Button trigger modal -->
+        
+        
+        <!-- Modal -->
+        <div class="modal fade" id="modal_pago" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Agregar pago</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <label>Forma de pago:</label>
+                                <select class="form-control form-control-alternative form-control-sm">
+                                    <option>Selecciona</option>    
+                                    <option>Efectivo</option>    
+                                    <option>Tarjeta Debito</option>    
+                                    <option>Tarjeta Credito</option>    
+                                    <option>Transferencia electronica</option>    
+                                <select>
+                            </div>
+                            <div class="col-lg-3">
+                                <label>Referencia</label>
+                                <input type="text" class="form-control form-control-alternative form-control-sm" placeholder="XXXXXX">
+                            </div>
+                            <div class="col-lg-3">
+                                <label>Monto del pago:</label>
+                                <input type="number" min="1" class="form-control form-control-alternative form-control-sm" placeholder="$0.00">
+                            </div>
+                            <div class="col-lg-2 mt-2">
+                                <br>
+                                <button class="btn btn-primary btn-sm col"><i class="fas fa-check"></i> Agregar</button>
                             </div>
                         </div>
                     </div>

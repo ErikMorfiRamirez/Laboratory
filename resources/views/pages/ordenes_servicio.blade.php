@@ -142,7 +142,7 @@
                                                                 Opciones
                                                             </button>
                                                     <div class="dropdown-menu" aria-labelledby="triggerId">
-                                                        <button class="dropdown-item" href="#"><i class="fas fa-edit"></i> Ver detalles</button>
+                                                        <a class="dropdown-item" href="{{ route('ordenes_servicio_detalle') }}"><i class="fas fa-edit"></i> Ver detalles</a>
                                                         <button class="dropdown-item" href="#"><i class="fas fa-file-invoice-dollar"></i> Generar recibo</button>
                                                         <button class="dropdown-item" href="#"><i class="fas fa-file-pdf"></i> Generar reporte</button>
                                                     </div>

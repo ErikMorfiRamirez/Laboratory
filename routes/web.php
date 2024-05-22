@@ -43,6 +43,7 @@ Route::group(['middleware' => 'auth'], function () {
 	Route::get('detalle_area', function () {return view('pages.areas_detalle');})->name('detalle_area');
 	Route::get('finanzas', function () {return view('pages.finanzas');})->name('finanzas');
 	Route::get('usuarios', function () {return view('pages.usuarios');})->name('usuarios');
+	Route::get('ordenes_servicio_detalle', function () {return view('pages.ordenes_servicio_detalle');})->name('ordenes_servicio_detalle');
 
 
 });
