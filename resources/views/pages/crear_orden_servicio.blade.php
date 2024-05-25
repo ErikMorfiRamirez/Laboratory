@@ -57,7 +57,7 @@
                                     <div class="col-lg-12">
                                         <!-- Button trigger modal -->
                                         <button type="button" class="btn btn-primary btn-sm col" data-toggle="modal" data-target="#modelId">
-                                            <i class="fas fa-hand-pointer"></i> Seleccionar paciente
+                                            <i class="fas fa-hand-pointer"></i> * Seleccionar paciente
                                         </button>
                                     </div>
                                 </div>
@@ -121,7 +121,7 @@
                                                         </div>
                                                         <div class="col-lg-12">
                                                             <hr>
-                                                            <button class="btn btn-outline-primary btn-sm" data-toggle="modal" data-target="#modal_pruebas"><i class="fas fa-plus"></i> Agregar Pruebas / Estudios</button>
+                                                            <button class="btn btn-outline-primary btn-sm" data-toggle="modal" data-target="#modal_pruebas"><i class="fas fa-plus"></i> * Agregar Pruebas / Estudios</button>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -231,7 +231,7 @@
                                                             </table>
                                                         </div>
                                                         <div class="col-lg-12 mt-2 text-right">
-                                                            <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#modal_pago"><i class="fas fa-plus"></i> Agregar pago</button>
+                                                            <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#modal_pago"><i class="fas fa-plus"></i> * Agregar pago</button>
                                                         </div>
                                                         <div class="col-lg-12 mt--3">
                                                             <hr>

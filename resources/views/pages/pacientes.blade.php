@@ -73,7 +73,7 @@
                                 </button>  
                                 <a class="btn btn-icon btn-info btn-sm" type="button" href="{{ route('nuevo_paciente') }}">
                                     <span class="btn-inner--icon"><i class="fas fa-plus"></i></span>
-                                    <span class="btn-inner--text">Nuevo paciente</span>
+                                    <span class="btn-inner--text">* Nuevo paciente</span>
                                 </a>   
                                 <button class="btn btn-icon btn-secondary btn-sm" type="button">
                                     <span class="btn-inner--icon"><i class="fas fa-edit"></i></span>
@@ -117,10 +117,10 @@
                                                 <div class="dropdown open">
                                                     <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" id="triggerId" data-toggle="dropdown" aria-haspopup="true"
                                                             aria-expanded="false">
-                                                               Opciones...
+                                                               * Opciones...
                                                             </button>
                                                     <div class="dropdown-menu" aria-labelledby="triggerId">
-                                                        <a href="{{ route('pacientes_detalle') }}" class="dropdown-item"><i class="fas fa-info-circle"></i> Ver detalles</a>
+                                                        <a href="{{ route('pacientes_detalle') }}" class="dropdown-item"><i class="fas fa-info-circle"></i> * Ver detalles</a>
                                                         <button class="dropdown-item" href="#"><i class="fas fa-stethoscope"></i> Generar orden</button>
                                                     </div>
                                                 </div>

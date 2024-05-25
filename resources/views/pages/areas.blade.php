@@ -38,7 +38,7 @@
                                         <td>IMAGENOLOGÍA</td>
                                         <td>JOSE CARMONA GONZALES</td>
                                         <td>
-                                            <a href="{{ route('detalle_area') }}" class="btn btn-info btn-sm"><i class="fas fa-info-circle"></i> Ver detalles</a>
+                                            <a href="{{ route('detalle_area') }}" class="btn btn-info btn-sm"><i class="fas fa-info-circle"></i> * Ver detalles</a>
                                         </td>
                                     </tr>
                                 </tbody>

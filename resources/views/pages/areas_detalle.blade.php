@@ -21,7 +21,7 @@
                     <div class="card-body">
                         <div class="row">
                             <div class="col-lg-4">
-                                <div class="card shadow-sm">
+                                <div class="card shadow-lg">
                                     <div class="card-header">
                                         <i class="fas fa-info-circle"></i> Informacíon del área
                                     </div>
@@ -57,7 +57,7 @@
                                 </div>
                             </div>
                             <div class="col-lg-8">
-                                <div class="card shadow-sm">
+                                <div class="card shadow-lg">
                                     <div class="card-header">
                                         <i class="far fa-check-square"></i> Servicios asociados
                                     </div>
@@ -110,12 +110,16 @@
                                                     </tbody>
                                                 </table>
                                             </div>
+                                            <div class="col-lg-12">
+                                                <hr>
+                                                <button class="btn btn-primary btn-sm"><i class="fas fa-plus-circle"></i> Crear servicio</button>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-12 mt-3">
-                                <div class="card  shadow-sm">
+                                <div class="card shadow-lg">
                                     <div class="card-header">
                                         <i class="fas fa-th-list"></i> Pruebas / Estudios
                                     </div>
@@ -153,12 +157,16 @@
                                                     </tbody>
                                                 </table>
                                             </div>
+                                            <div class="col-lg-12">
+                                                <hr>
+                                                <button class="btn btn-primary btn-sm"><i class="fas fa-plus-circle"></i> Agregar</button>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-12 mt-4">
-                                <div class="card shadow-sm">
+                                <div class="card shadow-lg">
                                     <div class="card-header">
                                         <i class="fas fa-user-md"></i> Medicos tratantes
                                     </div>
@@ -185,14 +193,16 @@
                                                 </tbody>
                                             </table>
                                         </div>
+                                        <div class="col-lg-12">
+                                            <hr>
+                                            <button class="btn btn-primary btn-sm"><i class="fas fa-plus-circle"></i> Agregar</button>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="card-footer text-muted">
-                        <button class="btn btn-primary"><i class="fas fa-plus"></i> Registrar área</button>
-                    </div>
+                   
                 </div>
             </div>
         </div>

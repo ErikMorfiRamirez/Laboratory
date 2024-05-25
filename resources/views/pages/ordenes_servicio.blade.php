@@ -78,8 +78,8 @@
                                 <small>Resultados de la busqueda</small>
                             </div>
                             <div class="col-lg-12 mt-2 table-responsive">
-                                <table class="table table-stripped table-hover table-bordered table-flush table-secondary mt-2" id="tabla_ordenes_servicio">
-                                    <thead class="thead-ligth">
+                                <table class="table table-stripped table-hover table-bordered table-dark table-flush table-secondary mt-2" id="tabla_ordenes_servicio">
+                                    <thead class="">
                                         <tr>
                                             <th>#</th>
                                             <th>Folio</th>
@@ -110,10 +110,10 @@
                                                 <div class="dropdown open">
                                                     <button class="btn btn-info btn-sm dropdown-toggle" type="button" id="triggerId" data-toggle="dropdown" aria-haspopup="true"
                                                             aria-expanded="false">
-                                                                Opciones
+                                                                * Opciones
                                                             </button>
                                                     <div class="dropdown-menu" aria-labelledby="triggerId">
-                                                        <button class="dropdown-item" href="#"><i class="fas fa-edit"></i> Ver detalles</button>
+                                                        <a class="dropdown-item" href="{{ route('ordenes_servicio_detalle') }}"><i class="fas fa-edit"></i> * Ver detalles</a>
                                                         <button class="dropdown-item" href="#"><i class="fas fa-file-invoice-dollar"></i> Generar recibo</button>
                                                         <button class="dropdown-item" href="#"><i class="fas fa-file-pdf"></i> Generar reporte</button>
                                                     </div>
@@ -139,10 +139,10 @@
                                                 <div class="dropdown open">
                                                     <button class="btn btn-info btn-sm dropdown-toggle" type="button" id="triggerId" data-toggle="dropdown" aria-haspopup="true"
                                                             aria-expanded="false">
-                                                                Opciones
+                                                               * Opciones
                                                             </button>
                                                     <div class="dropdown-menu" aria-labelledby="triggerId">
-                                                        <a class="dropdown-item" href="{{ route('ordenes_servicio_detalle') }}"><i class="fas fa-edit"></i> Ver detalles</a>
+                                                        <a class="dropdown-item" href="{{ route('ordenes_servicio_detalle') }}"><i class="fas fa-edit"></i> * Ver detalles</a>
                                                         <button class="dropdown-item" href="#"><i class="fas fa-file-invoice-dollar"></i> Generar recibo</button>
                                                         <button class="dropdown-item" href="#"><i class="fas fa-file-pdf"></i> Generar reporte</button>
                                                     </div>
