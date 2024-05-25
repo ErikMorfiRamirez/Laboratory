@@ -236,17 +236,26 @@
                                                         <div class="col-lg-12 mt--3">
                                                             <hr>
                                                         </div>
-                                                        <div class="col-lg-4 mt--3">
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-lg-8 col-sm-12">
                                                             <label>Pago: </label>
+                                                        </div>
+                                                        <div class="col-lg-4 col-sm-12">
                                                             <input type="number" placeholder="$0.00" value="1500" readonly class="form-contro form-control-alternative form-control-sm">
                                                         </div>
-                                                        <div class="col-lg-4 mt--3 ">
+                                                        <div class="col-lg-8 col-sm-12">
                                                             <label>Saldo: </label>
+                                                        </div>
+                                                        <div class="col-lg-4 col-sm-12">
                                                             <input type="number" placeholder="$0.00" readonly class="form-contro form-control-alternative form-control-sm">
                                                         </div>
-                                                        <div class="col-lg-4 mt--3">
+                                                        <div class="col-lg-8 col-sm-12">
                                                             <label>Cambio: </label>
+                                                        </div>
+                                                        <div class="col-lg-4 col-sm-12">
                                                             <input type="text" placeholder="$0.00" value="200" readonly class="form-contro form-control-alternative form-control-sm">
+
                                                         </div>
                                                     </div>
                                                 </div>

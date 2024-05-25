@@ -41,6 +41,15 @@
                                             <a href="{{ route('detalle_area') }}" class="btn btn-info btn-sm"><i class="fas fa-info-circle"></i> * Ver detalles</a>
                                         </td>
                                     </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>A-0124</td>
+                                        <td>LABORATORIO</td>
+                                        <td>RICARDO MENCHACA ROBLES</td>
+                                        <td>
+                                            <a href="{{ route('detalle_area_laboratorio') }}" class="btn btn-info btn-sm"><i class="fas fa-info-circle"></i> Ver detalles</a>
+                                        </td>
+                                    </tr>
                                 </tbody>
                             </table>
                         </div>
